@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--CSS Link-->
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<title>African Cuisine</title>
+	<title>BLOG.APP</title>
 </head>
 
 <body>
@@ -21,40 +21,43 @@
 <div class="main-wrapper">
 	<!--Header and Nav section div-->
 	<header>
-		<nav class="navbar navbar-expand-lg bg-white no-padding-v">
-  			<a class="navbar-brand" href="index.html"><img src="media/logo3.png" alt="African restaurant's logo"></a>
+		<nav class="navbar navbar-expand-lg bg-white py-4">
+  			<a class="navbar-brand" href="index.html">BLOG.APP</a>
  			 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
   			  <span class="navbar-toggler-icon"></span>
   			</button>
  			 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-   			 	<ul class="navbar-nav ml-auto">
-   			   	 <li class="nav-item">
-     			   <a class="nav-link active" href="csoon.html">HOME</a>
+   			 	<ul class="navbar-nav">
+   			   	 <li class="nav-item  d-flex align-items-center">
+     			   <a class="nav-link active" href="/">HOME</a>
      			 </li>
-     			 <li class="nav-item">
-     			   <a class="nav-link" href="csoon.html">ABOUT</a>
+     			 <li class="nav-item d-flex align-items-center">
+     			   <a class="nav-link" href="/about">ABOUT</a>
      			 </li>
-     			 <li class="nav-item">
-     			   <a class="nav-link" href="csoon.html">RECIPES</a>
+     			 <li class="nav-item d-flex align-items-center">
+     			   <a class="nav-link" href="/services">SERVICES</a>
     			  </li> 
-    			  <li class="nav-item">
-     			   <a class="nav-link" href="csoon.html">EXPERIENCE</a>
-    			  </li> 
-    			  <li class="nav-item">
-     			   <a class="nav-link" href="csoon.html">MAGAZINE</a>
-    			  </li>
-    			  <li class="nav-item">
+    			  <li class="nav-item d-flex align-items-center">
      			   <a class="nav-link" href="#cta">CONTACT</a>
-    			  </li>
-    			  <li class="nav-item">
+    			  </li><!--
+    			  <li class="nav-item d-flex align-items-center">
     			  	<div class="search-box">
     			  		<input class="search-txt" type="text" name="nav-search" placeholder="think food...">
     			  		<a class="search-btn" href="#">
     			  			<i class="fa fa-search"></i>
     			  		</a>
     			  	</div>
-    			  </li>    
+    			  </li>    -->
     			</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item d-flex align-items-center">
+						<a class="nav-link" href="#">Login</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<a class="nav-link" href="#">Register</a>
+					</li> 
+				</ul>
+
  			 </div>  
 			</nav>
 	</header> 
@@ -77,99 +80,98 @@
 	</section>
 	
 	<!--Blog post items CSS Grid-->
-	<section class="container-fluid blog-grid"> 
-			<!--First row contains first three blog posts-->
-			<div class="row bottom-margin"> 
-				<!--Blog post 1-->
-				<div class="col-md-4 container-fluid">  
-						<img src="media/blogpost1.jpg" class="img-responsive" alt="Blog post"> 
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
+	<section class="blog-grid"> 
+		<div class="blog-post-grid"> 
+
+			<div class="blog-post">  
+				<img src="media/blogpost1.jpg" class="img-responsive" alt="Blog post"> 
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
 					<a href="csoon.html">
-					<div class=" carousel-caption text-left blog-text">
-						<p>29.11.2017</p>
-						<h3><small>FRUIT SALAD</small>
-						<br>AND MARKETS</h3>
-						<p>Lorem ipsum dolor sit amet</p>
-					</div>
+						<img class="blog-icon" src="media/heart.png">
 					</a>
 				</div>
-				<!--Blog post 2-->
-				<div class="col-md-4 container-fluid"> 
-						<img src="media/blogpost2.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
-					<a href="csoon.html">
+				<a href="csoon.html">
 					<div class=" carousel-caption text-left blog-text">
 						<p>29.11.2017</p>
 						<h3><small>FRUIT SALAD</small>
 						<br>AND MARKETS</h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
+				</a>
+			</div>
+
+			<div class="blog-post"> 
+				<img src="media/blogpost2.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
 					</a>
-				</div>				
-				<!--Blog post 3-->
-				<div class="col-md-4 container-fluid"> 
-						<img src="media/blogpost3.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
 					<a href="csoon.html">
-					<div class=" carousel-caption text-left blog-text">
-						<p>29.11.2017</p>
-						<h3><small>FRUIT SALAD</small>
-						<br>AND MARKETS</h3>
-						<p>Lorem ipsum dolor sit amet</p>
-					</div>
+						<img class="blog-icon" src="media/heart.png">
 					</a>
 				</div>
+				<a href="csoon.html">
+					<div class=" carousel-caption text-left blog-text">
+						<p>29.11.2017</p>
+						<h3><small>FRUIT SALAD</small>
+						<br>AND MARKETS</h3>
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+				</a>
 			</div>				
 
-			<!--Rows two and three - First item spans two rows-->
+			<div class="blog-post"> 
+				<img src="media/blogpost3.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
+					<a href="csoon.html">
+						<img class="blog-icon" src="media/heart.png">
+					</a>
+				</div>
+				<a href="csoon.html">
+					<div class=" carousel-caption text-left blog-text">
+						<p>29.11.2017</p>
+						<h3><small>FRUIT SALAD</small>
+						<br>AND MARKETS</h3>
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+				</a>
+			</div>
+							
+
+			<!--Rows two and three - First item spans two rows
 			<div class="row bottom-margin">
-				<!--Blog post 4 - first column - two-row-span-->
+				Blog post 4 - first column - two-row-span
 				<div class="col-md-8 no-padding">
 					<img src="media/blogpostmain.jpg" class="major-blog-image" alt="Blog post">
 					<div class="carousel-caption major-blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
+						<a href="#">
 							<img class="blog-icon" src="media/facebook.png">
 						</a>
-						<a href="https://twitter.com/effect_studios">
+						<a href="#">
 							<img class="blog-icon" src="media/twitter.png">
 						</a>
 					</div>
@@ -180,9 +182,9 @@
 						<a target="_blank" href="csoon.html"><button class="btn btn-light">Read More</button></a>
 					</div>
 				</div>
-				<!--Second column for blog post 5 and 6-->
+				Second column for blog post 5 and 6
 				<div class="col-md-4 no-padding">
-					<!--Blog post 5-->
+					Blog post 5
 					<div>
 						<img class="rtt-image" src="media/blogpost5.jpg" alt="Blog post">
 						<a href="csoon.html">
@@ -192,7 +194,7 @@
 						</div>
 						</a>
 					</div>
-					<!--Blog post 6-->
+					Blog post 6
 					<div>
 						<img class="rtt-image" src="media/blogpost6.jpg" alt="Blog post">
 						<a href="csoon.html">
@@ -203,171 +205,165 @@
 						</a>
 					</div>
 				</div>
-			</div>
+			</div>-->
 
-			<!--Fourth row contains three news items-->
-			<div class="row bottom-margin">
-				<!--Blog post 7-->
-				<div class="col-md-4"> 
-						<img src="media/blogpost7.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
+			<div class="blog-post"> 
+				<img src="media/blogpost7.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
 					<a href="csoon.html">
+						<img class="blog-icon" src="media/heart.png">
+					</a>
+				</div>
+				<a href="csoon.html">
 					<div class=" carousel-caption text-left blog-text">
 						<p>29.11.2017</p>
 						<h3><small>VEGETABLES</small>
 						<br>AND SEEDS</h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
+				</a>
+			</div>
+
+			<div class="blog-post"> 
+				<img src="media/blogpost8.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
+					<a href="csoon.html">
+						<img class="blog-icon" src="media/heart.png">
 					</a>
 				</div>
-				<!--Blog post 8-->
-				<div class="col-md-4"> 
-						<img src="media/blogpost8.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
-					<a href="csoon.html">
+				<a href="csoon.html">
 					<div class=" carousel-caption text-left blog-text">
 						<p>29.11.2017</p>
 						<h3><small>STEAK</small>
 						<br>AND CARBS</h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
+				</a>
+			</div>
+
+			<div class="blog-post"> 
+				<img src="media/blogpost9.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
+					<a href="csoon.html">
+						<img class="blog-icon" src="media/heart.png">
 					</a>
 				</div>
-				<!--Blog post 9-->
-				<div class="col-md-4"> 
-						<img src="media/blogpost9.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
-					<a href="csoon.html">
+				<a href="csoon.html">
 					<div class=" carousel-caption text-left blog-text">
 						<p>29.11.2017</p>
 						<h3><small>VEGETABLES</small>
 						<br>AND SEEDS</h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
+				</a>
+			</div>
+			
+
+			<div class="blog-post"> 
+				<img src="media/blogpost10.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
+					<a href="csoon.html">
+						<img class="blog-icon" src="media/heart.png">
 					</a>
 				</div>
-			</div>
-
-			<!--Fifth row contains three news items-->
-			<div class="row">
-				<!--Blog post 10-->
-				<div class="col-md-4"> 
-						<img src="media/blogpost10.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
-					<a href="csoon.html">
+				<a href="csoon.html">
 					<div class=" carousel-caption text-left blog-text">
 						<p>29.11.2017</p>
 						<h3><small>STEAK</small>
 						<br>AND CARBS</h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
+				</a>
+			</div>
+
+			<div class="blog-post"> 
+				<img src="media/blogpost11.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
+					<a href="csoon.html">
+						<img class="blog-icon" src="media/heart.png">
 					</a>
 				</div>
-				<!--Blog post 11-->
-				<div class="col-md-4"> 
-						<img src="media/blogpost11.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
-					<a href="csoon.html">
+				<a href="csoon.html">
 					<div class=" carousel-caption text-left blog-text">
 						<p>29.11.2017</p>
 						<h3><small>VEGETABLES</small>
 						<br>AND SEEDS</h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
+				</a>
+			</div>
+
+			<div class="blog-post"> 
+				<img src="media/blogpost12.jpg" class="img-responsive" alt="Blog post">
+				<div class="carousel-caption blog-title text-left no-padding">
+					<h6 class="small">BLOG</h6>
+				</div>
+				<div class="carousel-caption blog-icons">
+					<a href="#">
+						<img class="blog-icon" src="media/facebook.png">
+					</a>
+					<a href="#">
+						<img class="blog-icon" src="media/twitter.png">
+					</a>
+					<a href="csoon.html">
+						<img class="blog-icon" src="media/heart.png">
 					</a>
 				</div>
-				<!--Blog post 12-->
-				<div class="col-md-4"> 
-						<img src="media/blogpost12.jpg" class="img-responsive" alt="Blog post">
-					<div class="carousel-caption blog-title text-left no-padding">
-						<h6 class="small">BLOG</h6>
-					</div>
-					<div class="carousel-caption blog-icons">
-						<a href="https://www.facebook.com/effectstudios.com.gh/">
-							<img class="blog-icon" src="media/facebook.png">
-						</a>
-						<a href="https://twitter.com/effect_studios">
-							<img class="blog-icon" src="media/twitter.png">
-						</a>
-						<a href="csoon.html">
-							<img class="blog-icon" src="media/heart.png">
-						</a>
-					</div>
-					<a href="csoon.html">
+				<a href="csoon.html">
 					<div class="carousel-caption text-left blog-text">
 						<p>29.11.2017</p>
 						<h3><small>STEAK</small>
 						<br>AND CARBS</h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
-					</a>
-				</div>
-			</div>	
+				</a>
+			</div>
+		</div>	
 	</section>
 
 	<!--Call to action section-->
@@ -380,8 +376,8 @@
 			</picture>
 			<div class="carousel-caption cta-container">
 				<div class="cta-text text-left">
-					<h5> EAT WITH US</h5>
-					<p> Leave us your details to subscribe to our weekly newsletter for yummy recipes, events, and more!</p>
+					<h5> STAY WITH US</h5>
+					<p> Leave us your details to subscribe to our weekly newsletter for insightful updates and more!</p>
 				</div>
 				<form id="cta" class="cta-form">
 					<div class="form-row">
@@ -403,8 +399,8 @@
 	</section>
 
 	<!--Footer Navitgation section-->
-	<footer class="container-fluid no-padding footer">
-		<img class="footer-img" src="media/logo4.png" alt="African restaurant's logo">
+	<footer class="footer py-3">
+		<a class="navbar-brand mr-0" href="index.html">BLOG.APP</a>
 		<nav class="navbar navbar-expand-md bg-black justify-content-center" id="nav-footer">
 			<ul class="navbar-nav"> <!--Navigation links begin here-->
 				<li class="nav-item">
@@ -414,25 +410,19 @@
 					<a class="nav-link text-white" href="csoon.html"> ABOUT </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white" href="csoon.html"> RECIPES </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white" href="csoon.html"> EXPERIENCE </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white" href="csoon.html"> MAGAZINE </a>
+					<a class="nav-link text-white" href="csoon.html"> SERVICES </a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white" href="csoon.html"> CONTACT </a>
 				</li>
 			</ul>
 		</nav>
-		<div class="footer-icons">
-			<a class="fa fa-google" href="https://www.linkedin.com/company/effect-studios/"></a>
-			<a class="fa fa-facebook" href="https://www.linkedin.com/company/effect-studios/"></a>
-			<a class="fa fa-twitter" href="https://www.linkedin.com/company/effect-studios/"></a>
-			<a class="fa fa-youtube" href="https://www.linkedin.com/company/effect-studios/"></a>
-			<a class="fa fa-instagram" href="https://www.linkedin.com/company/effect-studios/"></a>
+		<div class="footer-icons d-flex justify-content-center align-items-center">
+			<div>
+				<a class="fa fa-facebook" href="#"></a>
+				<a class="fa fa-twitter" href="#"></a>
+				<a class="fa fa-instagram" href="#"></a>
+			</div>
 		</div>
 	</footer>
 </div>
